@@ -5,5 +5,7 @@ public class Main {
         // Print the puzzle
         Puzzle puzzle = new Puzzle(columns, rows);
         puzzle.printPuzzle();
+
+        puzzle.checkWords();
     }
 }
